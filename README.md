@@ -76,3 +76,29 @@ pip install -r requirements.txt
 python --version
 
 python main.py
+
+
+## Summary Insights (for Report)
+
+- **Price Distribution**:  
+  Most paper cup machines cluster between certain price bands (see histogram).  
+  A few very high-priced machines form a long right tail → these may be high-end, fully automatic machines.
+
+- **Supplier Geography**:  
+  Top contributing cities and states include known industrial hubs.  
+  This suggests manufacturing clusters for packaging/printing machinery.
+
+- **Product Naming Patterns**:  
+  Frequent keywords include *"automatic"*, *"semi"*, *"cup"*, *"machine"*, *"making"*, and numeric capacities.  
+  This indicates buyers likely compare **automation level** and **throughput**.
+
+- **Specification Patterns**:  
+  Most common technical attributes: *Automation Grade*, *Phase*, *Capacity*, *Power*, *Voltage*, etc.  
+  These are critical decision variables in B2B buying.
+
+- **Data Quality Issues**:  
+  - Some products have missing or non-numeric prices.  
+  - Location fields are sometimes incomplete or inconsistently formatted.  
+  - Specs are unevenly filled — some products list rich details, others very few.  
+
+These observations can be used to propose **data cleaning steps**, **standardization of attributes**, and further **price benchmarking** or **market segmentation**.
