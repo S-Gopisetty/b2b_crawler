@@ -58,7 +58,6 @@ B2B_CRAWLER/
 ├── parser_indiamart.py
 ├── crawler.py
 ├── main.py
-├── test_extract_links.py # (optional debugging tool)
 ├── requirements.txt
 ├── output/
 └── README.md
